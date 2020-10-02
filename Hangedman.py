@@ -21,7 +21,6 @@ def menu():
     try:
 
         eleccion = int(input('Ingrese la opcion deseada: '))
-        #Este parametro sera enviado a 'word.py' donde se genera la palabra a adivinar
 
         if eleccion < 1 or eleccion > 4:
 
