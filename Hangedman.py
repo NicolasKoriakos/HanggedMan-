@@ -13,8 +13,8 @@ def menu():
     print('-----')
     print('1. Palabras Random(cualquier palabra).')
     print('2. Tematica Futbol(jugadores de futbol).')
-    print('3. Tematica Comida(comidas xd).')
-    print('4. Salir(no seas trolo man).')
+    print('3. Tematica Comida(comidas).')
+    print('4. Salir.')
     print('------------------------------')
     print()
     
@@ -80,8 +80,6 @@ def word_generator(n):
         'papa','bife','choclo','galleta','manteca','zanahoria','zapallo','palta','arroz','frutilla','manzana','banana','pera',
         'sandia','uvas','chocolate','pepino','pizza','kiwi','jamon'
     ]
-
-    print(words1[word_number],words2[word_number],words3[word_number])
 
     if n == 1:
 
@@ -186,6 +184,7 @@ def display():
             print(f'Letras usadas: {used_letters}')
             print()
             letter = input('Ingrese la letra que desea probar: ')
+            letter = letter.lower()
             print()
 
             while letter in used_letters:
@@ -232,6 +231,7 @@ def display():
             print(f'Letras usadas: {used_letters}')
             print()
             letter = input('Ingrese la letra que desea probar: ')
+            letter = letter.lower()
             print()
 
             while letter in used_letters:
@@ -278,6 +278,7 @@ def display():
             print(f'Letras usadas: {used_letters}')
             print()
             letter = input('Ingrese la letra que desea probar: ')
+            letter = letter.lower()
             print()
 
             while letter in used_letters:
@@ -324,6 +325,7 @@ def display():
             print(f'Letras usadas: {used_letters}')
             print()
             letter = input('Ingrese la letra que desea probar: ')
+            letter = letter.lower()
             print()
 
             while letter in used_letters:
@@ -370,6 +372,7 @@ def display():
             print(f'Letras usadas: {used_letters}')
             print()
             letter = input('Ingrese la letra que desea probar: ')
+            letter = letter.lower()
             print()
 
             while letter in used_letters:
@@ -416,6 +419,7 @@ def display():
             print(f'Letras usadas: {used_letters}')
             print()
             letter = input('Ingrese la letra que desea probar: ')
+            letter = letter.lower()
             print()
 
             while letter in used_letters:
@@ -462,6 +466,7 @@ def display():
             print(f'Letras usadas: {used_letters}')
             print()
             letter = input('Ingrese la letra que desea probar: ')
+            letter = letter.lower()
             print()
 
             while letter in used_letters:
